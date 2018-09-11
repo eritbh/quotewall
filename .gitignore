@@ -1,0 +1,8 @@
+# editor crap
+.vscode
+
+# node crap
+node_modules
+
+# secret crap
+config.json

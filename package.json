@@ -1,0 +1,15 @@
+{
+  "name": "quotewall",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Geo1088/quotewall",
+  "author": "George <georgej1088@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@geo1088/eslint-config": "^1.4.0",
+    "eslint": "^5.5.0"
+  },
+  "dependencies": {
+    "rethinkdb": "^2.3.3"
+  }
+}
