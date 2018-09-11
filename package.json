@@ -10,6 +10,7 @@
     "eslint": "^5.5.0"
   },
   "dependencies": {
+    "another-logger": "^2.0.0-pre2",
     "rethinkdb": "^2.3.3"
   }
 }
