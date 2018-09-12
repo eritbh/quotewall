@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "another-logger": "^2.0.0-pre2",
+    "ejs": "^2.6.1",
+    "polka": "^0.4.0",
     "rethinkdb": "^2.3.3"
   }
 }

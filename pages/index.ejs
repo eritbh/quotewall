@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Quote Wall</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+	</head>
+	<body>
+		<h1>All Quotes</h1>
+		<a href="/random">Random quote</a>
+		<ul>
+			<% for (let quote of quotes) { %>
+				<li>
+					<blockquote>
+						<p>
+							<%= quote.text %>
+						</p>
+					</blockquote>
+					<span class="attribution">
+						&#x2014;<%= quote.attribution %>
+					</span>
+					<span class="links">
+						<a href="/quote/<%= quote.id %>">Permalink</a>
+					</span>
+				</li>
+			<% } %>
+		</ul>
+	</body>
+</html>
