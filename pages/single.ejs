@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title><%= quote.attribution %> &#x2014; Quote Wall</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+	</head>
+	<body>
+		<h1>Quote</h1>
+		<article>
+			<blockquote>
+				<p>
+					<%= quote.text %>
+				</p>
+			</blockquote>
+			<span class="attribution">
+				&#x2014;<%= quote.attribution %>
+			</span>
+			<span class="links">
+				<a href="/quote/<%= quote.id %>">Permalink</a>
+			</span>
+		</article>
+	</body>
+</html>

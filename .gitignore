@@ -6,3 +6,4 @@ node_modules
 
 # secret crap
 config.json
+rethinkdb_data
